@@ -6,6 +6,7 @@ const INDEX_NAMES: Record<string, string> = {
   '000905.SH': '中证500',
   '000001.SH': '上证指数',
   '399006.SZ': '创业板指',
+  '000688.SH': '科创50',
 }
 
 export function indexName(code: string): string {
